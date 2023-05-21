@@ -10,6 +10,7 @@ function Navbar() {
             <li><Link to="/">Home</Link></li>
             <li><Link to="/image-carousel">ImageCarousel</Link></li>
             <li><Link to="/quotes">Quotes</Link></li>
+            <li><Link to="/todos">Todos</Link></li>
           </ul>
         </nav>
     </div>

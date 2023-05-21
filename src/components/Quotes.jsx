@@ -8,6 +8,7 @@ function getRandomQuote(quotes) {
 function Quotes() {
        const [quotes, setQuotes] = useState([]);
        const [quote, setQuote] = useState();
+       
        useEffect(() => {
               fetch("https://type.fit/api/quotes")
                 .then((res) => res.json())
