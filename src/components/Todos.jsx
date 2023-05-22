@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react'
+import Navbar from './Navbar';
 
 function Todos() {
      const [data, setData] = useState(null);
@@ -8,6 +9,7 @@ function Todos() {
      }, []);
      return (
           <div>
+               <Navbar /><br /><br />
                {
                     data && data.map((item) => { 
                          return (
