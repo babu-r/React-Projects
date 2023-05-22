@@ -11,6 +11,8 @@ function Navbar() {
             <li><Link to="/image-carousel">ImageCarousel</Link></li>
             <li><Link to="/quotes">Quotes</Link></li>
             <li><Link to="/todos">Todos</Link></li>
+            <li><Link to="/reducer">Reducer</Link></li>
+            <li><Link to="/image-fetcher">Image Fetcher</Link></li>
           </ul>
         </nav>
     </div>

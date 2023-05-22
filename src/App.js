@@ -5,6 +5,8 @@ import ImageCarousel from './components/ImageCarousel';
 import Home from './components/Home';
 import Quotes from './components/Quotes';
 import Todos from './components/Todos';
+import Reducer from './components/Reducer';
+import ImageFetcher from './components/ImageFetcher';
 
 
 function App() {
@@ -15,6 +17,8 @@ function App() {
           <Route exact path='/image-carousel' element={<ImageCarousel />} />
           <Route exact path='/quotes' element={<Quotes />} />
           <Route exact path='/todos' element={<Todos />} />
+          <Route exact path='/reducer' element={<Reducer />} />
+          <Route exact path='/image-fetcher' element={<ImageFetcher />} />
       </Routes>
     </>
   );
