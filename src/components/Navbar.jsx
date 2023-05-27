@@ -13,10 +13,11 @@ function Navbar() {
             <li><Link to="/todos">Todos</Link></li>
             <li><Link to="/reducer">Reducer</Link></li>
             <li><Link to="/image-fetcher">Image Fetcher</Link></li>
+            <li><Link to="/usetoggle">Custom Hook Toggler</Link></li>
           </ul>
         </nav>
     </div>
   )
 }
 
-export default Navbar
+export default Navbar;

@@ -6,10 +6,10 @@ import Home from './components/Home';
 import Quotes from './components/Quotes';
 import Todos from './components/Todos';
 import Reducer from './components/Reducer';
-import ImageFetcher from './components/ImageFetcher';
 import WeatherAPI from './components/WeatherAPI';
 import InputHookApp from './components/ReactCustomInputHook/InputHookApp';
 import ToggleApp from './components/ReactCustomHookuseToggle/ToggleApp';
+import ImageFetcher from './components/ImageFetcher/ImageFetcher';
 
 
 function App() {

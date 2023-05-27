@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/styles.css';
+import '../components/styles/styles.css';
 import { Card } from 'semantic-ui-react'
 
 const CardExampleCard = ({weatherData}) => (

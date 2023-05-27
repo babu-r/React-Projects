@@ -30,7 +30,7 @@ function ImageFetcher() {
     
      useEffect(() => {
           setData(null)
-          loadData()
+          loadData();;
      }, [id])
 
      return (
