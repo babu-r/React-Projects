@@ -7,6 +7,9 @@ import Quotes from './components/Quotes';
 import Todos from './components/Todos';
 import Reducer from './components/Reducer';
 import ImageFetcher from './components/ImageFetcher';
+import WeatherAPI from './components/WeatherAPI';
+import InputHookApp from './components/ReactCustomInputHook/InputHookApp';
+import ToggleApp from './components/ReactCustomHookuseToggle/ToggleApp';
 
 
 function App() {
@@ -19,6 +22,9 @@ function App() {
           <Route exact path='/todos' element={<Todos />} />
           <Route exact path='/reducer' element={<Reducer />} />
           <Route exact path='/image-fetcher' element={<ImageFetcher />} />
+          <Route exact path='/weather' element={<WeatherAPI />} />
+          <Route exact path='/inputhookapp' element={<InputHookApp />} />
+          <Route exact path='/usetoggle' element={<ToggleApp />} />
       </Routes>
     </>
   );
