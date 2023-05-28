@@ -10,6 +10,7 @@ import WeatherAPI from './components/WeatherAPI';
 import InputHookApp from './components/ReactCustomInputHook/InputHookApp';
 import ToggleApp from './components/ReactCustomHookuseToggle/ToggleApp';
 import ImageFetcher from './components/ImageFetcher/ImageFetcher';
+import PokemonApp from './components/PokemonApp/PokemonApp';
 
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
           <Route exact path='/weather' element={<WeatherAPI />} />
           <Route exact path='/inputhookapp' element={<InputHookApp />} />
           <Route exact path='/usetoggle' element={<ToggleApp />} />
+          <Route exact path='/pokemon' element={<PokemonApp />} />
       </Routes>
     </>
   );
